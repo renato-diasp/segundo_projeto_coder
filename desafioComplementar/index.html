@@ -3,94 +3,114 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Site demonstrativo para semântica do HTML"/>
-    <meta name="keywords" content="HTML, SEO, Boas Práticas HTML, HTML Semântico"/>
-    <script defer src="https://kit.fontawesome.com/91da8df7e5.js" crossorigin="anonymous"></script>
-    <title>HTML Semântico</title>
+    <meta name="description" content="Site elaborado para atividade complementar Coder House"/>
+    <meta name="keywords"content="Palmeiras, Receita, Milk-Shake, Informática"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script defer src="https://kit.fontawesome.com/91da8df7e5.js"crossorigin="anonymous"></script>
+    <title>Assuntos Aleatórios - Coder House</title>
   </head>
   <body>
-    <!-- Estrutura cabeçalho -->
-    <header>
-      <h1>Dados Pessoais:</h1>
-      <p>Nome: Renato Dias</p>
-      <p>Profissão: Analista de Suporte</p>
-      <p>Idade: 35a</p>
-      <p>Signo: Gêmeos</p>
-    </header>
-    <hr>
-    <!-- Estrutura Receita -->
-    <section>
-      <h2>Receita de Milk Shake de Chocolate:</h2>
-      <div class="receita">
-        <h3>Ingredientes</h3>
-        <ul>
-          <li>3 bolas de sorvete de chocolate</li>
-          <li>2 e 1/2 xícaras de leite gelado</li>
-          <li>1 colher (chá) de essência de baunilha</li>
-          <li>cobertura de chocolate ou outro sabor</li>
-        </ul>
+    <div class="container">
+      <!-- Estrutura cabeçalho -->
+      <header>
+        <h1>Dados Pessoais:</h1>
+        <p>Nome: Renato Dias</p>
+        <p>Profissão: Analista de Suporte</p>
+        <p>Idade: 35a</p>
+        <p>Signo: Gêmeos</p>
+      </header>
+      <hr />
+      <!-- Estrutura Receita -->
+      <section>
+        <h2>Receita de Milk Shake de <span>Chocolate</span>:</h2>
+        <div class="receita">
+          
+          <div>
+            <h3>Ingredientes</h3>
+          <ul>
+            <li>3 bolas de sorvete de chocolate</li>
+            <li>2 e 1/2 xícaras de leite gelado</li>
+            <li>1 colher (chá) de essência de baunilha</li>
+            <li>cobertura de chocolate ou outro sabor</li>
+          </ul>
+          </div>
 
-        <h3>Modo de Preparo:</h3>
-        <ol>
-          <li>Bata todos os ingredientes, menos a cobertura, no liquidificador.</li>
-          <li>Espalhe um pouco de cobertura em uma taça própria para milk shake.</li>
-          <li>Coloque o milk shake na taça e sirva-se.</li>
-        </ol>
-      </div>
-    </section>
-    <hr>
-   <!-- Estrutura da tabela -->
-    <section>
-      <table border="">
-        <caption>Tabela de Preços equipamentos de informática:</caption>
-        <thead>
-          <tr>
-            <th>Produto</th>
-            <th>Preço Unitário</th>
-            <th>Quantidade em estoque</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>HD SATA 80GB</td>
-            <td>R$85,00</td>
-            <td>35</td>
-          </tr>
+          <div>
+            <h3>Modo de Preparo:</h3>
+          <ol>
+            <li>Bata todos os ingredientes, menos a cobertura, no liquidificador.</li>
+            <li>Espalhe um pouco de cobertura em uma taça própria para milk shake.</li>
+            <li>Coloque o milk shake na taça e sirva-se.</li>
+          </ol>
+          </div>
+          
+        </div>
+      </section>
+      <hr />
+      <!-- Estrutura da tabela -->
+      <section class="tabela">
+        <table>
+          <caption>
+            Tabela de Preços equipamentos de informática:
+          </caption>
+          <thead>
+            <tr>
+              <th>Produto</th>
+              <th>Preço Unitário</th>
+              <th>Quantidade em estoque</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HD SATA 80GB</td>
+              <td>R$85,00</td>
+              <td>35</td>
+            </tr>
 
-          <tr>
-            <td>Pen Drive 2GB</td>
-            <td>R$15,00</td>
-            <td>150</td>
-          </tr>
+            <tr>
+              <td>Pen Drive 2GB</td>
+              <td>R$15,00</td>
+              <td>150</td>
+            </tr>
 
-          <tr>
-            <td>Impressora Laser Colorida</td>
-            <td>R$613,99</td>
-            <td>18</td>
-          </tr>
+            <tr>
+              <td>Impressora Laser Colorida</td>
+              <td>R$613,99</td>
+              <td>18</td>
+            </tr>
 
-          <tr>
-            <td>Monitor LCD 17'</td>
-            <td>R$309,00</td>
-            <td>41</td>
-          </tr>
-        </tbody>        
-      </table>
-    </section>
-    <hr>
-    <!--Estrutura news  -->
-    <article>
-      <h2>Palmeiras pode ser campeão brasileiro até com derrota; veja os cenários para a última rodada</h2>
-      <img src="./images/palmeiras.webp" alt="Time do palmeiras em comemoração">
-      <figcaption>Líder, Verdão joga a última partida contra o Cruzeiro, no Mineirão</figcaption>
-      <p>Veja mais detalhes <a href="https://ge.globo.com/futebol/times/palmeiras/noticia/2023/12/03/palmeiras-pode-ser-campeao-brasileiro-ate-com-derrota-veja-os-cenarios-para-a-ultima-rodada.ghtml" target="_blank" rel="noopener noreferrer">Aqui</a></p>
-    </article>
+            <tr>
+              <td>Monitor LCD 17'</td>
+              <td>R$309,00</td>
+              <td>41</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <!--Estrutura news  -->
+      <article>
+        <div class="titulo">
+          <h2>Palmeiras pode ser campeão brasileiro até com derrota; veja os
+          cenários para a última rodada</h2>
+          <q>O Palmeiras deu um grande passo neste domingo para conquistar o título brasileiro, o bi consecutivo. Ao vencer o Fluminense por 1 a 0 no Allianz Parque, o time agora pode terminar como campeão até se perder para o Cruzeiro na rodada final.</q>
+        </div>
+        
+        <div class="imagem">
+          <img src="./images/palmeiras.png" alt="Time do palmeiras em comemoração"/>
+          <figcaption>Líder, Verdão joga a última partida contra o Cruzeiro, no Mineirão</figcaption>
+          <p>Veja mais detalhes <a href="https://ge.globo.com/futebol/times/palmeiras/noticia/2023/12/03/almeiras-pode-ser-campeao-brasileiro-ate-com-derrota-veja-os-cenarios-para-a-ultima-rodada.ghtml"            target="_blank"rel="noopener noreferrer">Aqui</a></p>
+        </div>
+        
+      </article>
+      <hr>
 
-    <footer>
-      <p>feito com <i class="fa-sharp fa-regular fa-heart" style="color: red;"></i> </p>
-      <p>E-mail: <a href="mailto:">natovirtual@gmail.com</a></p>
-      <p>Contato: 11 995252771</p>
-      
-    </footer>
+      <!-- Estrutura rodapé -->
+      <footer>
+        <p>feito com<i class="fa-sharp fa-regular fa-heart" style="color: red"></i></p>
+        <p>E-mail: <a href="mailto:">natovirtual@gmail.com</a></p>
+        <p>Contato: 11 995252771</p>
+      </footer>
+    </div>
   </body>
 </html>
